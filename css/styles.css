@@ -359,8 +359,8 @@ section {
 }
 
 .portfolio-card:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .image-container {
@@ -426,7 +426,7 @@ section {
 }
 
 .footer-social-title {
-  font-size: 500;
+  font-weight: 500;
   color: #ffffff;
   margin-bottom: 16px;
 }
@@ -456,6 +456,7 @@ section {
 .icon-link:focus {
   background-color: #31d0aa;
 }
+
 .social-icon {
   fill: #f4f4fd;
 }
