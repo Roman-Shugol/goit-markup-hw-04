@@ -1,16 +1,16 @@
-GoIT Markup Homework #3
+GoIT Markup Homework #4
 
-Welcome to my third homework project for the GoIT Full Stack Course! 🎨
+Welcome to my fourth homework project for the GoIT Full Stack Course! 🎨
 
-Overview This project continues the development of the "Web Studio" website and
-focuses on positioning elements, spacing, and layout using Flexbox. The project
-emphasizes clean, semantic HTML, responsive design, and efficient CSS styling.
-The page layout is designed according to the provided mockups from Figma.
+Overview: This project builds upon the "Web Studio" website, focusing on adding
+icons, SVG sprites, and decorative effects from the homework #4 mockups. The
+project also emphasizes clean, semantic HTML, optimized images, and responsive
+design using modern CSS techniques.
 
 Getting Started:
 
 1. Clone the repository: git clone
-   https://github.com/roman-shugol/goit-markup-hw-03.git
+   https://github.com/roman-shugol/goit-markup-hw-04.git
 
 2. Open index.html in your browser.
 
@@ -19,17 +19,22 @@ Project Structure
 - index.html: Main HTML file containing the updated page structure.
 - css/styles.css: Stylesheet with custom CSS using Flexbox for layout, along
   with responsive design techniques.
-- images/: Directory containing optimized images used in the project.-
-  modern-normalize.css: Normalize stylesheet to reset default browser styles for
-  consistency.
+- images/: Directory containing optimized images and SVG sprite (icons.svg).
+- modern-normalize.css: Normalize stylesheet for cross-browser consistency.
 
 Key Features:
 
-1. Responsive Layout: Layout adapts to different screen sizes using Flexbox and
-   media queries.
-2. Modern Normalize: Added to ensure cross-browser consistency in default
-   styling.
-3. Clean and Semantic HTML: Focus on writing semantic and accessible HTML for
-   improved SEO and user experience.
-4. Optimized Images: Images are optimized for web performance, ensuring fast
-   loading times.
+1. SVG Icons: All vector icons are stored in an optimized SVG sprite (icons.svg)
+   for better performance.
+2. Icon Integration: Icons are integrated into HTML using <svg> and <use> tags.
+3. Hover Effects: Interactive hover effects, including box shadows and
+   transitions, applied to various elements like cards and icons.
+4. Responsive Layout: Ensures the layout adapts to different screen sizes using
+   Flexbox and media queries.
+5. Optimized Images: All images, including icons, are optimized for faster
+   loading and better performance.
+6. Semantic HTML: The code adheres to semantic HTML practices for better
+   accessibility and SEO.
+
+Live Preview: You can view the live version of this project through GitHub
+Pages.
